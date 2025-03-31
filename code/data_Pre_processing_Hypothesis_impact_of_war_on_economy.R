@@ -4,13 +4,14 @@ install.packages("GGally")
 install.packages("reshape2")
 install.packages("tidyr")
 install.packages("gridExtra")
+
 # Load necessary libraries
 library(readxl)
 library(dplyr)
 library(tidyr)
 
 # Load dataset
-data <- read_excel("Combined_Data_1900_1953.xlsx", sheet = "Combined Data")
+data <- read_excel("D:\\MLDM\\semester 2\\DataMining Project\\datamining-project\\data\\Combined_Data_1900_1953.xlsx", sheet = "Combined Data")
 
 # View structure of the dataset
 str(data)
@@ -45,3 +46,4 @@ head(data_filtered)
 
 # Save processed data to a new CSV file
 write.csv(data_filtered, "Processed_Data.csv", row.names = FALSE)
+
