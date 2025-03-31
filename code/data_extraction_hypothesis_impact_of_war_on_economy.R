@@ -1,5 +1,5 @@
 # Install and load necessary packages
-if (!requireNamespace("openxlsx", quietly = TRUE)) install.packages("openxlsx")
+install.packages("openxlsx")
 library(openxlsx)
 library(readxl)
 library(dplyr)
