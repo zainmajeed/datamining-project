@@ -1,4 +1,4 @@
-# Install necessary packages (if not already installed)
+# Install necessary packages
 install.packages("caret") 
 install.packages("randomForest")
 install.packages("ggplot2")
